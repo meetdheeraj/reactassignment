@@ -1,41 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Globant - Code Realm - Angular Assignment
 
-## Problem Statement
+## The current application
 
-The existing app is a simple form for which you can perform the following operations -
+- View the Form
+- Fill the input details.
+- Submit the form.
 
-1.  View the Form
-2.  Fill the input details.
-3.  Submit the form.
+## Points to implement
 
-You have to perform the following tasks -
+- Make the app responsive - The app isn't responsive and doesn't display correctly on mobile devices. Remove inline styles and write it in separate file.
 
-1.  Make the app responsive - The app isn't responsive and doesn't display correctly on mobile devices. Remove inline styles and write it in separate file.
+- Make reusable component for label and input text.
 
-2.  Make reusable component for label and input text.
+- Make the app work with React Context to solve the problem of props drill.
 
-3.  Make the app work with React Context to solve the problem of props drill.
+- Rewrite FormField component with functional syntax.
 
-4.  Rewrite FormField component with functional syntax.
+- Add unit testcases for sufficient code coverage.
 
-5.  Add unit testcases for sufficient code coverage.
+- Refactor and optimise the code.
 
-6.  Refactor and optimise the code.
+- On Pressing Submit button try to show details in separate component.
 
-7.  On Pressing Submit button try to show details in separate component.
+- Do not use any thirdparty libraries for validations.
 
-8.  Do not use any thirdparty libraries for validations.
-
-Please note -
+## Please note
 
 - SCSS integration is already present so you don't have to add any custom packages or modify any configuration changes for it.
+
 - The ability to execute unit tests is already baked in so you don't have to make any configuration changes to enable it.
 
 ## Quick Start
 
 1. Make sure that you have Node.js and npm v5 or above installed.
 
-2. Clone this repo using git clone https://github.com/PiyushJha04/code-realm-react.git
+2. Clone this repo using git clone https://github.com/pragatir/reactassignment
 
 3. Move to the appropriate directory: cd code-realm-react.
 
@@ -75,6 +74,6 @@ Good to have:
 - [ ] Use React hooks
 - [ ] Use functional components
 
-TODO :
-
-- [ ] Reporter tool
+## Node modules for erference
+- [MAC version](WIP) WIP
+- [WINDOWS version](WIP) WIP
