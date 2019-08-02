@@ -1,4 +1,4 @@
-# Globant - Code Realm - Angular Assignment
+# Globant - Code Realm - React Assignment
 
 ## The current application
 
@@ -75,5 +75,5 @@ Good to have:
 - [ ] Use functional components
 
 ## Node modules for erference
-- [MAC version](WIP) WIP
+- [MAC version](https://github.com/umakantp/react-nodemodules) for downloading node_modules
 - [WINDOWS version](WIP) WIP
