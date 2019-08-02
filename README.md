@@ -74,6 +74,6 @@ Good to have:
 - Use React hooks
 - Use functional components
 
-## Node modules for erference
+## Node modules for reference
 - [MAC version](https://github.com/umakantp/react-nodemodules) for downloading node_modules
 - [WINDOWS version](WIP) WIP
