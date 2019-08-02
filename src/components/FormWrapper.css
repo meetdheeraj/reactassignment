@@ -1,0 +1,24 @@
+.wrapper {
+  width: "100%";
+  padding: 5px;
+  display: flex;
+}
+
+.label {
+  float: left;
+  padding-right: 50px;
+  min-width: 100px;
+  font-weight: bold;
+}
+
+input,
+select {
+  min-width: 200px;
+  font-size: 18px;
+}
+
+.submit-btn {
+  font-size: 18px;
+  display: block;
+  padding-top: 20px;
+}
