@@ -16,7 +16,7 @@
 
 - Rewrite FormField component with functional syntax.
 
-- Add unit testcases for sufficient code coverage.
+- Add unit testcases.
 
 - Refactor and optimise the code.
 
@@ -38,7 +38,7 @@
 
 3. Move to the appropriate directory: cd code-realm-react.
 
-4. Run `yarn` in order to install dependencies.
+4. Run `npm install` in order to install dependencies.
 
 5. At this point you can run `npm start` to see the example app at http://localhost:3000.
 
@@ -61,18 +61,18 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Must to have:
 
-- [ ] Form field validations
-- [ ] Make it responsive
-- [ ] On submit button there should be separate page which shows the details (React route )
-- [ ] Add reset button
-- [ ] Array of objects in app.js and sort alphabetically names
-- [ ] Filter gender wise
-- [ ] Write unit tests
+- Form field validations
+- Make it responsive
+- On submit button there should be separate page which shows the details (React route )
+- Add reset button
+- Array of objects in app.js and sort alphabetically names
+- Filter gender wise
+- Write unit tests
 
 Good to have:
 
-- [ ] Use React hooks
-- [ ] Use functional components
+- Use React hooks
+- Use functional components
 
 ## Node modules for erference
 - [MAC version](https://github.com/umakantp/react-nodemodules) for downloading node_modules
