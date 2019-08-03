@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email Field renders correctly 1`] = `
+<input
+  maxLength="255"
+  onBlur={[Function]}
+  spellCheck="false"
+  tabIndex="3"
+  type="email"
+/>
+`;
