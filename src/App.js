@@ -1,5 +1,5 @@
 import React from "react";
-import FormWrapper from "./components/FormWrapper";
+import FormComponent from "./components/FormWrapper";
 import "./App.css";
 
 class App extends React.Component {
@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <FormWrapper formTitle={this.state.formTitle} />
+          <FormComponent formTitle={this.state.formTitle} />
         </header>
       </div>
     );

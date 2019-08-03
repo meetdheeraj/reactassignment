@@ -14,7 +14,7 @@ import GenderField from "./form-components/gender-field";
 // styles
 import "./FormWrapper.css";
 
-class FormWrapper extends React.Component {
+export class FormWrapper extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,7 +30,7 @@ class FormWrapper extends React.Component {
     //TO-DO: This isn't completely working as yet
     const disabled = (!this.state.name && !this.state.phoneNo
       && !this.state.sex && !this.state.message
-      && !this.state.email && !this.state.country) ? true : false; 
+      && !this.state.email && !this.state.country) ? true : false;
 
     return (
       <form action="#" onSubmit={this.onSubmit}>
@@ -85,4 +85,4 @@ class FormWrapper extends React.Component {
 
 }
 
-export default withRouter(FormWrapper);
+export const FormComponent = withRouter(FormWrapper);

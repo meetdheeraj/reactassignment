@@ -14,6 +14,6 @@ describe("App component", () => {
   });
   it("should set formTitle correctly", () => {
     const output = shallow(<App />);
-    expect(output.find("FormWrapper").prop("formTitle")).toBe("Enquiry Form");
+    expect(output.find("FormComponent").prop("formTitle")).toBe("Enquiry Form");
   });
 });

@@ -26,7 +26,7 @@ const EmailInput = (props) => {
     )
 }
 
-const validateEmail = (event) => {
+export const validateEmail = (event) => {
     if (!(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/.test(event.target.value))) {
         alert("Enter valid mail ID!!")
         return false;

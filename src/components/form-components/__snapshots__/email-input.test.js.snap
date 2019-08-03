@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email Field renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <label
+    className="label"
+  >
+    Email
+  </label>
+  <input
+    id="email"
+    maxLength="255"
+    name="email"
+    onBlur={[Function]}
+    onChange={[Function]}
+    spellCheck="false"
+    tabIndex="3"
+    type="email"
+  />
+</div>
+`;
