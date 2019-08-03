@@ -22,3 +22,21 @@ select {
   display: block;
   padding-top: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .wrapper {
+    padding-left: 55px;
+  }
+
+  .label {
+    padding-left: 112px;
+    padding-right: 0px;
+  }
+
+  input {
+    min-width: unset;
+    max-width: 185px;
+  }
+}
