@@ -12,7 +12,7 @@ const OnSubmit = (props) => {
             <h3>{data.email}</h3>
             <h3>{data.phoneNo}</h3>
             <h3>{data.message}</h3>
-            <h3>{data.name}</h3>
+            <h3>{data.sex}</h3>
         </header>
     )
 }
