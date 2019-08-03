@@ -1,5 +1,5 @@
 import React from "react";
-import FormComponent from "./components/FormWrapper";
+import { FormComponent } from "./components/FormWrapper";
 import "./App.css";
 
 class App extends React.Component {
